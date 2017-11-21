@@ -1706,7 +1706,10 @@ $(function() {
 	//各个模块inc吐出脚本
 	// $('#sitetips').find('.tiptoolbtn').append("<a hidefocus='true' href='http://fkschool46.faisco.cn' class='tlinkPrev1' title='查看上一个模板'>上一个</a><span class='siteDemoIndexText'><font class='siteDemoCurIndexText'>2</font>/21</span><a hidefocus='true' href='http://fkschool41.faisco.cn' class='tlinkNext1' title='查看下一个模板'>下一个</a><a id='copyTemplateBtn' href='http://jz.faisco.com/reg.html?clone=14656515&templateId=885&_ta=25' target='_blank' class='tbutton' style='font-weight:bold;' title='点击复制网站，让您立即拥有和模板一样的网站，复制后您还可以随意更换主题、修改横幅、编辑内容等。' onclick='Site.logClick(136);'><span class='styleSettingButton siteDemoBtn_active siteDemoBtn'>复制网站</span></a><a hidefocus='true' href='http://jz.faisco.com/model.html?_ta=25' target='_blank' class='tlinkMore  siteDemoBtn' title='点击查看更多模板网站'>更多模板</a>");
 Site.initCorpTitleJump();
-Site.initModuleSiteSearch('356');Site.fixCusWidthSearchBox('356');Site.bindSearchBtnEvent('356');
+// 暂时注释
+// Site.initModuleSiteSearch('356');
+Site.fixCusWidthSearchBox('356');
+Site.bindSearchBtnEvent('356');
 Site.initModulePhotoSwitch(315, {"data":[{"name":"","target":"_blank","src":"http://14656515.s61i.faiusr.com/4/AD0Ig8j_BhAEGAAgquW_zQUooP20uQIwigU4wgM.png","width":650,"height":450,"widthOr":650,"heightOr":450,"pic":"AD0Ig8j_BhAEGAAgquW_zQUooP20uQIwigU4wgM"},{"name":"","target":"_blank","src":"http://14656515.s61i.faiusr.com/4/AD0Ig8j_BhAEGAAgueW_zQUo1J2tezCKBTjCAw.png","width":650,"height":450,"widthOr":650,"heightOr":450,"pic":"AD0Ig8j_BhAEGAAgueW_zQUo1J2tezCKBTjCAw"}],"width":650,"height":450,"playTime":4000,"animateTime":1500,"showImageName":false,"switchWrapName":false,"moduleId":"photoSwitch315","cusPicSize":true,"picScale":2,"manuallyCarousel":false}, 1, 'carouselPhotos');
 
 Site.hoverChangeImage();Site.hoverStyle();
@@ -1759,19 +1762,8 @@ Site.initMulColModuleInIE('#module325');
 });
 
 function afterModuleLoaded() {
-
 	Site.initPage2();
-Site.initBackToTopTool(false,false,false,'回到顶部','null');
-
-
-
-
-
-
-
-
-
-
+    Site.initBackToTopTool(false,false,false,'回到顶部','null');
 } // afterModuleLoaded end
 
 var _lcid = 2052,
